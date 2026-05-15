@@ -5,7 +5,7 @@ bl_info = {
     "name": "Resolution Presets",
     "author": "Nwadilioramma Azuka-Onwuka",
     "version": (1, 0),
-    "blender": (4, 0, 0),
+    "blender": (4, 5, 0),
     "location": "Properties > Ouput > Resolution Presets",
     "description": "Set various screen ratios for different platforms",
     "category": "Render",
