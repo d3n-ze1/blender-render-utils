@@ -17,17 +17,19 @@ def get_resolution_presets():
     Each key is a preset name, and the value is a tuple of (width, height, aspect_ratio).
     """
     presets = {
-        "Instagram Post": (1080, 1350, 3/4),
+        "Instagram Post": (1080, 1440, 3/4),
         "Instagram Story (Portrait)": (1080, 1920, 9/16),
         "YouTube Thumbnail (Landscape)": (1280, 720, 16/9),
         "YouTube Video (HD 720p)": (1280, 720, 16/9),
         "YouTube Video (Full HD 1080p)": (1920, 1080, 16/9),
         "YouTube Video (4K UHD)": (3840, 2160, 16/9),
         "TikTok / Mobile Portrait": (1080, 1920, 9/16),
-        "Film (Standard)": (2048, 1080, 1.896),
+        "DCI 2K": (2048, 1080, 1.896),
+        "DCI 4K": (4096, 2160, 1.896),
+        "4K Widescreen": (4096, 1716, 2.39),
+        "Quad HD": (2560, 1440, 16/9),
         "Custom 1 (Widescreen)": (2560, 1080, 21/9), 
-        "Custom 2 (Vertical)": (1080, 2340, 9/19.5), 
-        "Custom 3 (Square)": (2160, 2160, 1.0)
+        "Custom 2 (Square - 2560)": (2560, 2560, 1.0)
     }
     return presets
 
